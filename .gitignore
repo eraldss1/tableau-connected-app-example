@@ -2,7 +2,7 @@
 .env
 
 # dependencies
-/node_modules
+/frontend/react-js/node_modules
 /.pnp
 .pnp.js
 
