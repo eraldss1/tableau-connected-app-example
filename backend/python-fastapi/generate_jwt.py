@@ -3,9 +3,6 @@ import os
 import uuid
 
 import jwt
-from dotenv import load_dotenv
-
-load_dotenv()
 
 secretId = os.getenv("SECRET_ID")
 secretValue = os.getenv("SECRET_VALUE")
