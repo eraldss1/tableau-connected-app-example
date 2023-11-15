@@ -18,7 +18,7 @@
     <li>
       <a href="#front-end">Front End</a>
       <ul>
-        <li><a href="#react-js">Prerequisites</a></li>
+        <li><a href="#react-js">ReactJS</a></li>
       </ul>
     </li>
     <li><a href="#back-end">Back End</a>
