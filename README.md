@@ -2,7 +2,7 @@
 
 <div align="center">
   <a href="https://www.tableau.com/">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png" alt="Tableau" width=60% max-width="600">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png" alt="Tableau" width=60%>
   </a>
   <h3 align="center">Tableau Connected App Example</h3>
   <p align="center">
