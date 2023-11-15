@@ -14,10 +14,13 @@
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li>
+          <a href="#built-with">Built With</a>
+        </li>
+      </ul>
     </li>
-    <li>
-      <a href="#whats-in-this-repository">What's in this repository?</a>
-    </li>
+    
     <li>
       <a href="#front-end">Front End</a>
       <ul>
@@ -37,7 +40,7 @@
 ## About The Project
 The Tableau Connected App Example is a comprehensive demonstration of building a connected application that seamlessly integrates with Tableau, a leading data visualization platform. This project aims to showcase the interaction between a sophisticated front-end application and a robust back-end infrastructure. **You actually can pick one of each from the front-end and back-end then implement it by yourself.**
 
-## What's In This Repository?
+### Built With
 [![React][React.js]][React-url] [![Python][Python]][Python-url] [![Node][Node.js]][Node-url] [![C#][C#]][C#-url] [![FastAPI][FastAPI]][FastAPI-url] [![Express][Express]][Express-url] [![.NET][.NET]][.NET-url]
 
 ## Front End
