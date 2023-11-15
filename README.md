@@ -20,14 +20,12 @@
         </li>
       </ul>
     </li>
-    
     <li>
       <a href="#front-end">Front End</a>
       <ul>
         <li><a href="#reactjs">ReactJS</a></li>
       </ul>
     </li>
-    
     <li>
     <a href="#back-end">Back End</a>
       <ul>
@@ -36,7 +34,6 @@
         <li><a href="#python---fastapi">Python - FastAPI</a></li>
       </ul>
     </li>
-    
   </ol>
 </details>
 
