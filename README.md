@@ -18,7 +18,7 @@
     <li>
       <a href="#front-end">Front End</a>
       <ul>
-        <li><a href="#react-js">ReactJS</a></li>
+        <li><a href="#reactjs">ReactJS</a></li>
       </ul>
     </li>
     <li><a href="#back-end">Back End</a>
@@ -36,6 +36,8 @@ The Tableau Connected App Example is a comprehensive demonstration of building a
 
 ## Front End
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+### ReactJS
 
 ## Back End
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
