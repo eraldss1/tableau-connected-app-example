@@ -8,12 +8,10 @@ async function getJwt(username) {
       username: username,
     });
 
-  const result = await fetch(url)
+  await fetch(url)
     .then((response) => response.json())
-    .then((data) => data.token);
-  console.log(result);
-
-  return result;
+    .then((data) => console.log(data))
+    .catch((error) => console.log(error));
 }
 
 export { getJwt };

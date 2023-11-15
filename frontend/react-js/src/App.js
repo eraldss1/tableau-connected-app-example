@@ -1,15 +1,7 @@
-import { useEffect, useState } from "react";
-import { getJwt } from "./api/getJwt";
+import TableauEmbed from "./component/TableauEmbed/TableauEmbed";
 
 function App() {
-  const [token, setToken] = useState("asd");
-
-  useEffect(() => {
-    const result = getJwt("erald.siregar@visidata.co");
-    setToken(result);
-  }, []);
-
-  return <p>Token : {token && <>{token.toString()}</>}</p>;
+  return <TableauEmbed username={"erald.siregar@visidata.co"} />;
 }
 
 export default App;
