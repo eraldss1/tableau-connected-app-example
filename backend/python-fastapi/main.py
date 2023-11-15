@@ -44,6 +44,8 @@ if __name__ == "__main__":
 
     if len(sys.argv) > 1:
         if sys.argv[1] == "dev":
-            uvicorn.run("main:app", port=PORT, log_level="debug", reload=True)
+            uvicorn.run(
+                "main:app", host="localhost", port=PORT, log_level="debug", reload=True
+            )
     else:
         uvicorn.run("main:app", port=PORT, log_level="info", reload=False)
