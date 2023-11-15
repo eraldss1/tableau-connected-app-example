@@ -67,17 +67,17 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 [Node.js]: https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white
 [Node-url]: https://nodejs.org/
 
-[]: 
-[]: 
+[C#]: https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white
+[C#-url]: https://learn.microsoft.com/en-us/dotnet/csharp/
 
-[]: 
-[]: 
+[FastAPI]: https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi
+[FastAPI-url]: https://fastapi.tiangolo.com/
 
-[]: 
-[]: 
+[Express]: https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB
+[Express-url]: https://expressjs.com/
 
-[]: 
-[]: 
+[.NET]: https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white
+[.NET-url]: https://dotnet.microsoft.com/en-us/apps/aspnet
 
 <!-- 
 []: 
