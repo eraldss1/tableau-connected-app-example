@@ -1,3 +1,4 @@
+<!-- PROJECT LOGO -->
 # Tableau Connected App Example
 ## Front End
 ### ReactJS
