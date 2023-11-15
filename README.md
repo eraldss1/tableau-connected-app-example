@@ -16,7 +16,7 @@
       <a href="#about-the-project">About The Project</a>
     </li>
     <li>
-      <a href="#">What's in this repository?</a>
+      <a href="#whats-in-this-repository">What's in this repository?</a>
     </li>
     <li>
       <a href="#front-end">Front End</a>
