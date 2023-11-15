@@ -38,7 +38,7 @@
 The Tableau Connected App Example is a comprehensive demonstration of building a connected application that seamlessly integrates with Tableau, a leading data visualization platform. This project aims to showcase the interaction between a sophisticated front-end application and a robust back-end infrastructure. **You actually can pick one of each from the front-end and back-end then implement it by yourself.**
 
 ## What's In This Repository?
-[![React][React.js]][React-url] [![Python][Python]][Python-url]
+[![React][React.js]][React-url] [![Python][Python]][Python-url] [![Node][Node.js]][Node-url]
 
 ## Front End
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
