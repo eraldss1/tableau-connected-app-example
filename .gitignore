@@ -1,8 +1,12 @@
+## NodeJS
+node_modules
+
+## Python
 *.pyc
 .env
 
+## ReactJS
 # dependencies
-/frontend/react-js/node_modules
 /.pnp
 .pnp.js
 
