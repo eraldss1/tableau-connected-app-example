@@ -1,5 +1,7 @@
 # Tableau Connected App Example
 ## Front End
-### ReactJs
+### ReactJS
 ## Back End
+### C# - ASP.NET
+### Node.js - Express
 ### Python - Fastapi
