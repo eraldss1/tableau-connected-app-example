@@ -6,10 +6,11 @@ var jwt = require("jsonwebtoken");
 
 module.exports = {
   getToken(req, res) {
-    const username = "erald.siregar@visidata.co";
+    const username = req.query.username;
     const uuid = uuidv4();
     const timenow = new Date().getTime();
     const expiry = new Date().getTime() + 5 * 60 * 1000;
+    const scope = ["tableau:views:embed", "tableau:metrics:embed"];
 
     var token = jwt.sign(
       {
@@ -19,7 +20,7 @@ module.exports = {
         exp: expiry / 1000,
         iat: timenow / 1000,
         jti: uuid,
-        scp: ["tableau:views:embed", "tableau:metrics:embed"],
+        scp: scope,
       },
       process.env.SECRET_VALUE,
       {
@@ -30,6 +31,6 @@ module.exports = {
         },
       }
     );
-    res.send({"token":token});
+    res.send({ token: token });
   },
 };
