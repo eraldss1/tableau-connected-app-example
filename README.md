@@ -45,7 +45,10 @@ The Tableau Connected App Example is a comprehensive demonstration of building a
 
 ### Built With
 
-[![React][React.js]][React-url] [![Python][Python]][Python-url] [![Node][Node.js]][Node-url] [![C#][C#]][C#-url] [![FastAPI][FastAPI]][FastAPI-url] [![Express][Express]][Express-url] [![.NET][.NET]][.NET-url] [![Java][Java]][Java-url] [![Spring][Spring]][Spring-url]
+[![CSharp][CSharp-img]][CSharp-url]
+[![Java][Java-img]][Java-url]
+[![Javascript][Javascript-img]][Javascript-url]
+[![Python][Python-img]][Python-url]
 
 ## Front End
 
@@ -73,24 +76,33 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 <!-- Markdown Badges -->
 
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactjs.org/
-[Python]: https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54
-[Python-url]: https://www.python.org/
-[Node.js]: https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white
-[Node-url]: https://nodejs.org/
-[C#]: https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white
-[C#-url]: https://learn.microsoft.com/en-us/dotnet/csharp/
-[FastAPI]: https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi
-[FastAPI-url]: https://fastapi.tiangolo.com/
-[Express]: https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB
-[Express-url]: https://expressjs.com/
-[.NET]: https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white
-[.NET-url]: https://dotnet.microsoft.com/en-us/apps/aspnet
-[Java]: https://a11ybadges.com/badge?logo=java
+[CSharp-img]: https://img.shields.io/badge/c%23-%23239120.svg?logo=c-sharp&logoColor=white&style=for-the-badge
+[CSharp-url]: https://learn.microsoft.com/en-us/dotnet/csharp/
+
+<!--  -->
+
+[Java-img]: https://img.shields.io/badge/java-%23ED8B00.svg?logo=java&logoColor=white&style=for-the-badge
 [Java-url]: https://www.java.com/en/
-[Spring]: https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white
-[Spring-url]: https://spring.io/projects/spring-boot
+
+<!--  -->
+
+[Javascript-img]: https://img.shields.io/badge/javascript-%23323330.svg?logo=javascript&logoColor=%23F7DF1E&style=for-the-badge
+[Javascript-url]: https://www.javascript.com/
+
+<!--  -->
+
+[Python-img]: https://img.shields.io/badge/python-3670A0?logo=python&logoColor=ffdd54&style=for-the-badge
+[Python-url]: https://www.python.org/
+
+<!--  -->
+
+[]:
+[]:
+
+<!--  -->
+
+[]:
+[]:
 
 <!--
 []:
