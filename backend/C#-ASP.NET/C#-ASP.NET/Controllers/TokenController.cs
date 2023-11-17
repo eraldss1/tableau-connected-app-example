@@ -1,5 +1,6 @@
 ﻿using C__ASP.NET.models;
 using Microsoft.AspNetCore.Mvc;
+using System.ComponentModel.DataAnnotations;
 
 namespace C__ASP.NET.Controllers
 {
@@ -16,7 +17,11 @@ namespace C__ASP.NET.Controllers
 
         [HttpGet]
         [ActionName("GetToken")]
-        public JSONWebTokens Get([FromQuery(Name = "username")] string username)
+        public JSONWebTokens Get(
+            [Required]
+            [FromQuery(Name = "username")]
+            string username
+        )
         {
             return new JSONWebTokens(username);
         }

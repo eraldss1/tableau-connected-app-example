@@ -5,6 +5,7 @@
     using System.Security.Claims;
     using System.Text;
     using System.Text.Json;
+    using Microsoft.AspNetCore.DataProtection;
     using Microsoft.IdentityModel.Tokens;
     public class JSONWebTokens(string username)
     {
@@ -12,59 +13,36 @@
 
         private static string GenerateToken(string username)
         {
-            #region Variables
             string? secretId = Environment.GetEnvironmentVariable("SECRET_ID");
             string? secretValue = Environment.GetEnvironmentVariable("SECRET_VALUE");
             string? clientId = Environment.GetEnvironmentVariable("CLIENT_ID");
 
-            double tokenExpiryInMinutes = 5; // Max of 10 minutes.
+            var tokenHandler = new JwtSecurityTokenHandler();
 
-            string[] scopes = ["tableau:views:embed", "tableau:views:embed_authoring"];
-            #endregion
+            var key = Encoding.ASCII.GetBytes(secretValue);
 
-            #region JWT generation
-            string kid = secretId;
-            string iss = clientId;
-            string sub = username;
-            string aud = "tableau";
-            DateTime exp = DateTime.UtcNow.AddMinutes(tokenExpiryInMinutes);
-            string jti = Guid.NewGuid().ToString();
-            string scp = JsonSerializer.Serialize(scopes);
-
-            Dictionary<string, object> headerClaims = new() { { "iss", iss } };
-
-            byte[] key = Encoding.ASCII.GetBytes(secretValue);
-
-            SigningCredentials signingCredentials = new(
-                new SymmetricSecurityKey(key) { KeyId = kid },
-                SecurityAlgorithms.HmacSha256Signature);
-
-            List<Claim> claims = new(
-                new[]
-                {
-                    new Claim("sub", sub),
-                    new Claim("jti", jti),
-                    new Claim("scp", scp, JsonClaimValueTypes.JsonArray),
-                });
-
-            ClaimsIdentity subject = new(claims);
-
-            SecurityTokenDescriptor tokenDescriptor = new()
+            var tokenDescriptor = new SecurityTokenDescriptor
             {
-                Audience = aud,
-                Subject = subject,
-                AdditionalInnerHeaderClaims = headerClaims,
-                SigningCredentials = signingCredentials,
-                Expires = exp
+                Subject = new ClaimsIdentity(new[] {
+                new Claim("sub",username)
+                ,new Claim("aud","tableau")
+                ,new Claim("jti",DateTime.UtcNow.ToString("MM/dd/yyyy hh:mm:ss.fff tt"))
+                ,new Claim("iss",clientId)
+                ,new Claim("scp","tableau:views:embed")
+                ,new Claim("scp","tableau:views:embed_authoring")
+                ,new Claim("scp","tableau:metrics:embed")
+                ,new Claim("scp"," ")      //if you really just need one scope, you can still add a dummy one just to force it to create the List Type, as expected by Tableau        
+			}),
+
+                Expires = DateTime.UtcNow.AddMinutes(2),
+                SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
             };
 
-            JwtSecurityTokenHandler tokenHandler = new();
-            SecurityToken token = tokenHandler.CreateToken(tokenDescriptor);
-            string jwt = tokenHandler.WriteToken(token);
+            var token = tokenHandler.CreateJwtSecurityToken(tokenDescriptor);
+            token.Header.Add("iss", clientId);
+            token.Header.Add("kid", secretId);
 
-            #endregion
-
-            return jwt;
+            return tokenHandler.WriteToken(token);
         }
     }
 }
