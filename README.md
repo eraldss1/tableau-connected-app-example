@@ -50,6 +50,12 @@ The Tableau Connected App Example is a comprehensive demonstration of building a
 [![Javascript][Javascript-img]][Javascript-url]
 [![Python][Python-img]][Python-url]
 
+[![.NET][.NET-img]][.NET-url]
+[![FastAPI][FastAPI-img]][FastAPI-url]
+[![Node.js][Node.js-img]][Node.js-url]
+[![React][React-img]][React-url]
+[![Spring][Spring-img]][Spring-url]
+
 ## Front End
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -96,13 +102,28 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 <!--  -->
 
-[]:
-[]:
+[.NET-img]: https://img.shields.io/badge/.NET-5C2D91?logo=.net&logoColor=white&style=for-the-badge
+[.NET-url]: https://dotnet.microsoft.com/en-us/
 
 <!--  -->
 
-[]:
-[]:
+[FastAPI-img]: https://img.shields.io/badge/FastAPI-005571?logo=fastapi&style=for-the-badge
+[FastAPI-url]: https://fastapi.tiangolo.com/
+
+<!--  -->
+
+[Node.js-img]: https://img.shields.io/badge/node.js-6DA55F?logo=node.js&logoColor=white&style=for-the-badge
+[Node.js-url]: https://nodejs.org/en/
+
+<!--  -->
+
+[React-img]: https://img.shields.io/badge/react-%2320232a.svg?logo=react&logoColor=%2361DAFB&style=for-the-badge
+[React-url]: https://react.dev/
+
+<!--  -->
+
+[Spring-img]: https://img.shields.io/badge/spring-%236DB33F.svg?logo=spring&logoColor=white&style=for-the-badge
+[Spring-url]: https://spring.io/
 
 <!--
 []:
