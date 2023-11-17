@@ -45,7 +45,7 @@ The Tableau Connected App Example is a comprehensive demonstration of building a
 
 ### Built With
 
-[![React][React.js]][React-url] [![Python][Python]][Python-url] [![Node][Node.js]][Node-url] [![C#][C#]][C#-url] [![FastAPI][FastAPI]][FastAPI-url] [![Express][Express]][Express-url] [![.NET][.NET]][.NET-url]
+[![React][React.js]][React-url] [![Python][Python]][Python-url] [![Node][Node.js]][Node-url] [![C#][C#]][C#-url] [![FastAPI][FastAPI]][FastAPI-url] [![Express][Express]][Express-url] [![.NET][.NET]][.NET-url] [![Java][Java]][Java-url] [![Spring][Spring]][Spring-url]
 
 ## Front End
 
@@ -87,6 +87,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 [Express-url]: https://expressjs.com/
 [.NET]: https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white
 [.NET-url]: https://dotnet.microsoft.com/en-us/apps/aspnet
+[Java]: https://a11ybadges.com/badge?logo=java
+[Java-url]: https://www.java.com/en/
+[Spring]: https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white
+[Spring-url]: https://spring.io/projects/spring-boot
 
 <!--
 []:
