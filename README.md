@@ -50,12 +50,14 @@ The Tableau Connected App Example is a comprehensive demonstration of building a
 [![Java][Java-img]][Java-url]
 [![Javascript][Javascript-img]][Javascript-url]
 [![Python][Python-img]][Python-url]
+[![PHP][PHP-img]][PHP-url]
 
 [![.NET][.NET-img]][.NET-url]
 [![FastAPI][FastAPI-img]][FastAPI-url]
 [![Node.js][Node.js-img]][Node.js-url]
 [![React][React-img]][React-url]
 [![Spring][Spring-img]][Spring-url]
+[![Laravel][Laravel-img]][Laravel-url]
 
 ## Front End
 
@@ -129,6 +131,16 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 [Spring-img]: https://img.shields.io/badge/spring-%236DB33F.svg?logo=spring&logoColor=white&style=for-the-badge
 [Spring-url]: https://spring.io/
+
+<!--  -->
+
+[PHP-img]: https://img.shields.io/badge/php-%23777BB4.svg?logo=php&logoColor=white&style=for-the-badge
+[PHP-url]: https://www.php.net/
+
+<!--  -->
+
+[Laravel-img]: https://img.shields.io/badge/laravel-%23FF2D20.svg?logo=laravel&logoColor=white&style=for-the-badge
+[Laravel-url]: https://laravel.com/
 
 <!--
 []:
